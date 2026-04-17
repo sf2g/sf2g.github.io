@@ -32,7 +32,7 @@ jobs:
 
       - name: Compile SSI to Static HTML
         id: build
-        run: node build.js
+        run: node render.js
 
       - name: Upload artifacts
         id: deployment
